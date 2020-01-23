@@ -13,6 +13,6 @@ end
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
   result = {}
-  result[]
+  result['Stephen Spielberg'] = 
   nil
 end
