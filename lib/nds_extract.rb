@@ -6,7 +6,6 @@ require 'directors_database'
 
 def gross_for_director(director_data)
     #   correctly totals the worldwide earnings for a director 
-    
     total = 0
     i = 0
     while i < director_data.length do
