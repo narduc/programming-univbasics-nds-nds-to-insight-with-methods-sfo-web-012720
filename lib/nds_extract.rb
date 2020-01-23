@@ -26,7 +26,12 @@ end
 
 def directors_totals(nds)
   result = {}
-  result["Stephen Spielberg"] = 1357566430 << total
-  
+  # result["Stephen Spielberg"] = 1357566430 << total
+  i = 0
+  while i < nds.length do
+    result[nds[i]](gross_for_director)
+  i += 1
+  end
   nil
+  result
 end
