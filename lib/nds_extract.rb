@@ -30,7 +30,7 @@ def directors_totals(nds)
   i = 0
   while i < nds.length do
     binding.pry
-    # result[nds[i]](gross_for_director)
+    # result[nds[i][:name]](gross_for_director)
   i += 1
   end
   nil
