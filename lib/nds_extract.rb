@@ -12,7 +12,7 @@ def gross_for_director(director_data)
     i = 0
     movies = director_data[:movies]
     while i < movies.length do
-       binding.pry
+       
       total += movies[i][:worldwide_gross]
       i += 1
     end
@@ -29,6 +29,7 @@ def directors_totals(nds)
   # result["Stephen Spielberg"] = 1357566430 << total
   i = 0
   while i < nds.length do
+    binding.pry
     result[nds[i]](gross_for_director)
   i += 1
   end
