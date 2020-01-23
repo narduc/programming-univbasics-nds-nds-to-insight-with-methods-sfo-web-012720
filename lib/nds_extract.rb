@@ -5,13 +5,14 @@ require 'pry'
 # using director_data as input
 
 def gross_for_director(director_data)
-    binding.pry
+   
     #   correctly totals the worldwide earnings for a director 
     
     total = 0
     i = 0
     movies = director_data[:movies]
     while i < movies.length do
+       binding.pry
       total += movies[i][:worldwide_gross]
       i += 1
     end
