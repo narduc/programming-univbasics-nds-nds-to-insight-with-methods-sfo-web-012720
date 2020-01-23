@@ -29,8 +29,8 @@ def directors_totals(nds)
   # result["Stephen Spielberg"] = 1357566430 << total
   i = 0
   while i < nds.length do
-    binding.pry
-    # result[nds[i][:name]] = gross_for_director(nds[i])
+    # binding.pry
+     result[nds[i][:name]] = gross_for_director(nds[i])
   i += 1
   end
   nil
